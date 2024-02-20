@@ -1,0 +1,12 @@
+<div id="content">
+    <main>
+        <header>
+            <h2 class="title">Home</h2>
+        </header>
+        <p>This is my home page for testing ideas built using HTMZ. This may change at times as I experiment with ideas
+            I
+            have.</p>
+        <p class="marginless">The source code for this site is available on <a
+                href="https://github.com/toilled/toille-htmz" target="_blank">this GitHub repository</a>.</p>
+    </main>
+</div>

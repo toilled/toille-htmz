@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elliot Dickerson</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body class="container">
+    <nav>
+        <base target=htmz>
+        <ul class="animate__animated animate__fadeInLeft question">
+            <li>
+                <hgroup>
+                    <h1 class="title animate__animated">Elliot Dickerson</h1>
+                    <h2 class="title animate__animated">A site to test things</h2>
+                </hgroup>
+            </li>
+        </ul>
+        <ul class="animate__animated animate__fadeInRight">
+            <li><a class="pointer" href="pages/home#content">Home</a></li>
+            <li><a class="pointer" href="pages/about#content">About</a></li>
+            <li><a class="pointer" href="pages/interests#content">Interests</a></li>
+        </ul>
+    </nav>
+
+    <div class="animate__animated animate__zoomIn">
+        <div id="content"></div>
+    </div>
+
+    <iframe hidden name=htmz src="pages/home#content"
+        onload="setTimeout(()=>document.querySelector(contentWindow.location.hash||null)?.replaceWith(...contentDocument.body.childNodes))"></iframe>
+</body>
+
+</html>

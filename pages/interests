@@ -1,0 +1,9 @@
+<div id="content">
+    <main>
+        <header>
+            <h2 class="title">My Interests</h2>
+        </header>
+        <p>I develop new code ideas as a hobby in my spare time, actively keeping a check on new languages.</p>
+        <p class="marginless">I keep up to date with music and play musical instruments including the guitar.</p>
+    </main>
+</div>

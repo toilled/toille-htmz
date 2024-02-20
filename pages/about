@@ -1,0 +1,10 @@
+<div id="content">
+    <main>
+        <header>
+            <h2 class="title">About Me</h2>
+        </header>
+        <p>I am a BSc (Hons) graduate who has been confident working with computers in some way for most of my life.</p>
+        <p class="marginless">I have around 13 years experience in software/web development primarily using PHP but also
+            JavaScript at times.</p>
+    </main>
+</div>
